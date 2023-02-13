@@ -13,7 +13,7 @@ final class LoginViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .orange
         let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        label.text = "Привет!"
+        label.text = "Enter login".localized()
         label.font = .primaryText()
         view.addSubview(label)
     }

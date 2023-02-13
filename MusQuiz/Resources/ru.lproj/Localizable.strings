@@ -5,3 +5,12 @@
   Created by Konstantin Grachev on 11.02.2023.
   
 */
+"Enter login" = "Введите логин";
+"Enter password" = "Введите пароль";
+"Sign In" = "Войти";
+"Sign Up" = "Регистрация";
+"Start Quiz!" = "Начать Квиз!";
+"Topics" = "Выбрать темы";
+"Settings" = "Настройки";
+"The quiz is completed!" = "Квиз выполнен!";
+"Points earned: " = "Заработано очков: ";
