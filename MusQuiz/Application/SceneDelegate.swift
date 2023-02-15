@@ -19,8 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.makeKeyAndVisible()
         
-        let loginViewController = LoginViewController()
-        let navigationViewController = UINavigationController(rootViewController: loginViewController)
+        let quizModuleBuider = QuizModuleBuilder(output: nil)
+        guard let vc = quizModuleBuider.build() else { return }
+        let navigationViewController = UINavigationController(rootViewController: vc)
         window?.rootViewController = navigationViewController
     }
 }
