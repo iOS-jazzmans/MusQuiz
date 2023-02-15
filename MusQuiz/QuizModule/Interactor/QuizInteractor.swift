@@ -6,3 +6,8 @@
 //
 
 import Foundation
+final class QuizInteractor {
+    weak var output: QuizInteractorOutput?
+}
+
+extension QuizInteractor: QuizInteractorInput {}

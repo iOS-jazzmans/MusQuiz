@@ -7,7 +7,14 @@
 
 import Foundation
 
-protocol QuizViewInput: AnyObject {}
+import UIKit
 
-protocol QuizViewOutput: AnyObject {}
+protocol QuizViewInput: AnyObject {
+    //action. for example:
+    func changeBackgroundColor(to color: UIColor)
+}
+
+protocol QuizViewOutput: AnyObject {
+    func viewDidLoad()    
+}
 
